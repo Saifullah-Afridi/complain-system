@@ -1,0 +1,455 @@
+{
+  "users": [
+    {
+      "id": "10",
+      "Name": "fahim",
+      "fatherName": "ud din ",
+      "CNIC": "2130129371317",
+      "mobileNumber": "03068518739",
+      "telephoneNumber": "09123876",
+      "email": "superadmin@gmail.com",
+      "occuption": "webdeveloper",
+      "address": "peshawar",
+      "businessAddress": "software house",
+      "businessNumber": "mailing",
+      "mailingAddress": "mailing",
+      "role": "Super Admin",
+      "emergencyNumber": "3234687",
+      "VehicleInformation": "5",
+      "password":"1234",
+      "conformPassword":"1234",
+      "createdDate": "2024-08-07"
+    },
+    {
+      "id": "22",
+      "Name": "fahim",
+      "fatherName": "ud din ",
+      "CNIC": "2130129371317",
+      "mobileNumber": "03068518739",
+      "telephoneNumber": "09123876",
+      "email": "user@gmail.com",
+      "occuption": "webdeveloper",
+      "address": "peshawar",
+      "businessAddress": "software house",
+      "businessNumber": "mailing",
+      "mailingAddress": "mailing",
+      "role": "User",
+      "emergencyNumber": "3234687",
+      "VehicleInformation": "5",
+      "password":"1234",
+      "conformPassword":"1234",
+      "createdDate": "2024-08-07"
+    },
+    {
+      "id": "23",
+      "Name": "najeeb",
+      "fatherName": "khan",
+      "CNIC": "12423345436564565",
+      "mobileNumber": "3254326456546",
+      "telephoneNumber": "643653546",
+      "email": "admin@gmail.com",
+      "occuption": "webdeveloper",
+      "address": "peshawar",
+      "businessAddress": "software house",
+      "businessNumber": "",
+      "mailingAddress": "",
+      "role":"Admin",
+      "password":"12345",
+      "conformPassword":"12345",
+      "emergencyNumber": "",
+      "VehicleInformation": "20",
+      "createdDate": "2024-08-07"
+    },
+    {
+      "id": "30",
+      "Name": "najeeb",
+      "fatherName": "khan",
+      "CNIC": "12423345436564565",
+      "mobileNumber": "3254326456546",
+      "telephoneNumber": "643653546",
+      "email": "user1@gmail.com",
+      "occuption": "webdeveloper",
+      "address": "peshawar",
+      "businessAddress": "software house",
+      "businessNumber": "",
+      "mailingAddress": "",
+      "role": "User",
+      "emergencyNumber": "",
+      "password":"1234",
+      "conformPassword":"1234",
+      "VehicleInformation": "20",
+      "createdDate": "2024-08-07"
+    },
+    {
+      "id": "4214",
+      "Name": "najeeb",
+      "fatherName": "khan",
+      "CNIC": "12423345436564565",
+      "mobileNumber": "3254326456546",
+      "telephoneNumber": "09123876",
+      "email": "ailkhan@gmail.com",
+      "occuption": "",
+      "address": "peshawar",
+      "businessAddress": "",
+      "businessNumber": "",
+      "mailingAddress": "",
+      "role": "Admin",
+      "emergencyNumber": "",
+      "VehicleInformation": "",
+      "password":"1234",
+      "conformPassword":"1234",
+      "createdDate": "2024-08-08"
+    }
+  ],
+  "complaints": [
+    {
+      "id": "7",
+      "userId": 10,
+      "title": "Error 500 on dashboard",
+      "description": "Users receive a 500 error when accessing the dashboard.",
+      "status": "pending",
+      "workerId": null,
+      "created_at": "2024-07-07T15:30:00Z"
+      
+    },
+    {
+      "id": "37",
+      "userId": 10,
+      "title": "Error of internet",
+      "description": "Users receive a 500 error when accessing the dashboard.",
+      "status": "pending",
+      "workerId": null,
+      "created_at": "2024-07-07T15:30:00Z"
+    },
+    {
+      "id": "37",
+      "userId": 10,
+      "title": "Error of telephone line",
+      "description": "Users receive a 500 error when accessing the dashboard.",
+      "status": "resolved",
+      "workerId": null,
+      "created_at": "2024-07-07T15:30:00Z"
+    },
+    {
+      "id": "27",
+      "userId": 10,
+      "title": "Error 500 on dashboard",
+      "description": "Users receive a 500 error when accessing the dashboard.",
+      "status": "pending",
+      "workerId": null,
+      "created_at": "2024-07-07T15:30:00Z"
+    },
+    {
+      "id": "8",
+      "userId": 11,
+      "title": "Password reset not working",
+      "description": "Users cannot reset their passwords.",
+      "status": "resolved",
+      "workerId": null,
+      "created_at": "2024-07-08T07:50:00Z"
+    },
+    {
+      "id": "9",
+      "userId": 12,
+      "title": "Session timeout too short",
+      "description": "User sessions timeout after 5 minutes of inactivity.",
+      "status": "in progress",
+      "workerId": "3",
+      "created_at": "2024-07-09T16:00:00Z"
+    },
+    {
+      "id": "10",
+      "userId": 13,
+      "title": "File upload not working",
+      "description": "Users cannot upload files larger than 5MB.",
+      "status": "pending",
+      "workerId": null,
+      "created_at": "2024-07-10T13:20:00Z"
+    },
+    {
+      "id": "11",
+      "userId": 14,
+      "title": "Search functionality broken",
+      "description": "The search bar does not return any results.",
+      "status": "resolved",
+      "workerId": null,
+      "created_at": "2024-07-11T10:00:00Z"
+    },
+    {
+      "id": "12",
+      "userId": 15,
+      "title": "API rate limit exceeded",
+      "description": "Users are being rate limited even with low usage.",
+      "status": "pending",
+      "workerId": null,
+      "created_at": "2024-07-12T14:45:00Z"
+    },
+    {
+      "id": "13",
+      "userId": 16,
+      "title": "Profile picture not updating",
+      "description": "Users cannot update their profile pictures.",
+      "status": "in progress",
+      "workerId": "1",
+      "created_at": "2024-07-13T09:30:00Z"
+    },
+    {
+      "id": "14",
+      "userId": 17,
+      "title": "Data export not working",
+      "description": "The data export feature fails to generate reports.",
+      "status": "resolved",
+      "workerId": null,
+      "created_at": "2024-07-14T12:15:00Z"
+    },
+    {
+      "id": "15",
+      "userId": 18,
+      "title": "Notifications delayed",
+      "description": "Users receive notifications several hours late.",
+      "status": "pending",
+      "workerId": null,
+      "created_at": "2024-07-15T11:10:00Z"
+    },
+    {
+      "id": "16",
+      "userId": 19,
+      "assignedWorkerId": 1,
+      "title": "Security vulnerability",
+      "description": "A security vulnerability was discovered in the login module.",
+      "status": "in progress",
+      "workerId": "5",
+      "created_at": "2024-07-16T14:25:00Z"
+    },
+    {
+      "id": "17",
+      "userId": 20,
+      "title": "Incorrect timezone display",
+      "description": "Times are displayed in the wrong timezone for some users.",
+      "status": "resolved",
+      "workerId": null,
+      "created_at": "2024-07-17T09:45:00Z"
+    },
+    {
+      "id": "18",
+      "userId": 21,
+      "title": "Billing issues",
+      "description": "Invoices are not generated correctly for some customers.",
+      "status": "pending",
+      "workerId": null,
+      "created_at": "2024-07-18T08:30:00Z"
+    },
+    {
+      "id": "19",
+      "userId": 22,
+      "title": "Unresponsive support chat",
+      "description": "The support chat feature is unresponsive for some users.",
+      "status": "resolved",
+      "workerId": null,
+      "created_at": "2024-07-19T10:50:00Z"
+    },
+    {
+      "id": "20",
+      "userId": 23,
+      "title": "App crashes on start",
+      "description": "The application crashes immediately upon starting.",
+      "status": "in progress",
+      "workerId": "1",
+      "created_at": "2024-07-20T15:05:00Z"
+    },
+    {
+      "id": "41bb",
+      "type": "self",
+      "subType": "plumber",
+      "useProfile": false,
+      "pocName": "jan",
+      "pocContact": "34567890-",
+      "description": "this is a small problem\n",
+      "status": "pending"
+    }
+  ],
+  "workers": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "serviceType": "Electrician",
+      "experience": 5,
+      "rating": 4.5,
+      "contact": "123-456-7890",
+      "email": "john.electrician@example.com",
+      "tasksAssigned": 20
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "serviceType": "Plumber",
+      "experience": 8,
+      "rating": 4.8,
+      "contact": "234-567-8901",
+      "email": "jane.plumber@example.com",
+      "tasksAssigned": 30
+    },
+    {
+      "id": "3",
+      "name": "Michael Johnson",
+      "serviceType": "AC Technician",
+      "experience": 6,
+      "rating": 4.6,
+      "contact": "345-678-9012",
+      "email": "michael.ac@example.com",
+      "tasksAssigned": 15
+    },
+    {
+      "id": "4",
+      "name": "Emily Davis",
+      "serviceType": "Mason",
+      "experience": 10,
+      "rating": 4.7,
+      "contact": "456-789-0123",
+      "email": "emily.mason@example.com",
+      "tasksAssigned": 25
+    },
+    {
+      "id": "5",
+      "name": "Robert Brown",
+      "serviceType": "Carpenter",
+      "experience": 7,
+      "rating": 4.9,
+      "contact": "567-890-1234",
+      "email": "robert.carpenter@example.com",
+      "tasksAssigned": 18
+    },
+    {
+      "id": "6",
+      "name": "Mary Williams",
+      "serviceType": "Painter",
+      "experience": 4,
+      "rating": 4.3,
+      "contact": "678-901-2345",
+      "email": "mary.painter@example.com",
+      "tasksAssigned": 22
+    },
+    {
+      "id": "7",
+      "name": "James Taylor",
+      "serviceType": "Cleaner",
+      "experience": 3,
+      "rating": 4.2,
+      "contact": "789-012-3456",
+      "email": "james.cleaner@example.com",
+      "tasksAssigned": 10
+    },
+    {
+      "id": "8",
+      "name": "Patricia Anderson",
+      "serviceType": "Construction",
+      "experience": 12,
+      "rating": 4.8,
+      "contact": "890-123-4567",
+      "email": "patricia.construction@example.com",
+      "tasksAssigned": 35
+    },
+    {
+      "id": "9",
+      "name": "David Wilson",
+      "serviceType": "Glass Worker",
+      "experience": 9,
+      "rating": 4.4,
+      "contact": "901-234-5678",
+      "email": "david.glass@example.com",
+      "tasksAssigned": 5
+    },
+    {
+      "id": "10",
+      "name": "Linda Martinez",
+      "serviceType": "Ceiling Worker",
+      "experience": 5,
+      "rating": 4.6,
+      "contact": "012-345-6789",
+      "email": "linda.ceiling@example.com",
+      "tasksAssigned": 8
+    },
+    {
+      "id": "11",
+      "name": "Charles Hernandez",
+      "serviceType": "Welder",
+      "experience": 11,
+      "rating": 4.7,
+      "contact": "123-456-7891",
+      "email": "charles.welder@example.com",
+      "tasksAssigned": 10
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": "1",
+      "userId": null,
+      "message": "I love the new interface, but I found a bug in the settings page.",
+      "status": "Pending",
+      "response": ""
+    },
+    {
+      "id": "2",
+      "userId": null,
+      "message": "The recent update is great, but the loading time has increased significantly.",
+      "status": "Pending",
+      "response": ""
+    },
+    {
+      "id": "3",
+      "userId": "21",
+      "message": "Could you please add dark mode? It's easier on the eyes during night usage.",
+      "status": "Reviewed",
+      "response": "Thank you for your suggestion! We are considering adding dark mode in the next update."
+    },
+    {
+      "id": "4",
+      "userId": "22",
+      "message": "The app is crashing frequently on my device. Please fix it as soon as possible.",
+      "status": "Pending",
+      "response": ""
+    },
+    {
+      "id": "5",
+      "userId": null,
+      "message": "Great app, but it would be better if you could add more customization options.",
+      "status": "Responded",
+      "response": "We appreciate your feedback! We are planning to introduce more customization options in the near future."
+    },
+    {
+      "id": "6",
+      "userId": "21",
+      "message": "The recent update caused my data to disappear. How can I recover it?",
+      "status": "Pending",
+      "response": ""
+    },
+    {
+      "id": "7",
+      "userId": null,
+      "message": "The app works fine, but the notifications are sometimes delayed. Please look into this issue.",
+      "status": "Reviewed",
+      "response": "We are currently working on improving the notification system. Thanks for your patience."
+    },
+    {
+      "id": "8",
+      "userId": "user_108",
+      "message": "I love using the app, but it would be great if you could add a tutorial for new users.",
+      "status": "Responded",
+      "response": "Thank you for the suggestion! We are planning to add a tutorial feature in the next release."
+    },
+    {
+      "id": "9",
+      "userId": "user_109",
+      "message": "The app is not working correctly on my tablet. Is it optimized for all devices?",
+      "status": "Pending",
+      "response": ""
+    },
+    {
+      "id": "10",
+      "userId": "user_110",
+      "message": "Thank you for the latest update. It fixed all the issues I was facing!",
+      "status": "Responded",
+      "response": "We're glad to hear that the update resolved your issues! Thank you for your continued support."
+    }
+  ]
+}
